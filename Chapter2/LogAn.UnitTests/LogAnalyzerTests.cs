@@ -6,7 +6,7 @@ namespace LogAn.UnitTests
     public class LogAnalyzerTests
     {
         [Test]
-        public void IsValidFileName_BadExtension_ReturnsFalse()
+        public void IsValidLogFileName_BadExtension_ReturnsFalse()
         {
             var analyzer = new LogAnalyzer();
             var result = analyzer.IsValidLogFileName("filewithbadextension.form");
